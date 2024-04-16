@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spotify(2)</title>
+    <link rel="stylesheet" href="Spotify2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="side">
+            <div class="sideupper">
+                <div class="item">
+                    <div class="image">
+                        <img src="house.svg" alt="house">
+                    </div>
+                    
+                    <div class="text">
+                        <p>Home</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="image">
+                        <img height="25px" width="25px" src="search.svg" alt="search">
+                    </div>
+                    
+                    <div class="text">
+                        <p>Search</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidelower">
+                <div class="item">
+                    <div class="image">
+                        <img height="25px" width="25px" src="library.svg" alt="library">
+                    </div>
+                    
+                    <div class="text">
+                        <p>Your Library 
+                            <a href="">+</a>
+                            <a href="">&#8594</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                        <div class="option">Artists</div>
+                        <div class="option">Albums</div>
+                </div>
+
+                <div class="item">
+                    <div class="image">
+                        <img height="25px" width="25px" src="search.svg" alt="search">
+                    </div>
+
+                    <div class="text">
+                        <p style="padding-left: 95px;">Recent</p>
+                    </div>
+
+                    <div class="image">
+                        <img height="25px" width="25px" src="recent.svg" alt="recent">
+                    </div>
+                </div>
+
+                <!-- Playlist 1 -->
+                <div class="item">
+                    <div class="playlist">
+                        <img style="height: 50px; width: 50px;" src="gradient.jpeg" alt="gradient">
+                    </div>
+                    
+                    <div class="text">
+                        <p>Liked Songs</p>
+                    </div>
+                </div>
+
+                <!-- Playlist 2 -->
+                <div class="item">
+                    <div class="playlist">
+                        <img style="height: 50px; width: 50px;" src="gradient.jpeg" alt="gradient">
+                    </div>
+                    
+                    <div class="text">
+                        <p>Playlist 1</p>
+                    </div>
+                </div>
+
+                <!-- Playlist 3 -->
+                <div class="item">
+                    <div class="playlist">
+                        <img style="height: 50px; width: 50px;" src="gradient.jpeg" alt="gradient">
+                    </div>
+                    
+                    <div class="text">
+                        <p>playlist 2</p>
+                    </div>
+                </div>
+
+                
+            
+            </div>
+        </div>
+
+        <div class="main">
+
+            <div class="top">
+
+                <div class="topLayer">
+
+                    <div class="leftitem">
+                        <div class="topoption">&#60;</div>
+                        <div class="topoption">&#62;</div>
+                    </div>
+                    
+                    <div class="rightitem">
+                        <div class="topoptionR">Explore Premium</div>
+                        <div class="topoptionR">Install App</div>
+                        <div class="topoptionR"><img height="15px" width="15px" src="bell.svg" alt="bell"></div>
+                        <div class="topoptionR">R</div>
+                    </div>
+
+                </div>
+
+                <div class="topLayer" style="padding-bottom: 10px;">
+                    <div class="leftitem">
+                        <div class="topoption">All</div>
+                        <div class="topoption">Music</div>
+                        <div class="topoption">Podcats</div>
+                    </div>
+                </div>
+            </div>
+ 
+            <div class="songs">
+                <div class="recent">
+                    <div class="rec">
+                        <div class="rectitem">
+                            <div class="rectplaylist">
+                                <img style="height: 50px; width: 50px;" src="gradient.jpeg" alt="gradient">
+                            </div>
+                            
+                            <div class="recttext">
+                                <p>Liked Songs</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rec">
+                        <div class="rectitem">
+                            <div class="rectplaylist">
+                                <img style="height: 50px; width: 50px;" src="gradient.jpeg" alt="gradient">
+                            </div>
+                            
+                            <div class="recttext">
+                                <p>Playlist 2</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h1>Made for You </h1>
+
+            <div class="music">
+                <div class="module" onclick="gm()">
+                    <img src="gradient.jpeg" alt="gradient" height="100px" width="160px">
+                    <p class="songname">Gayatri Manta</p>
+                </div>
+
+                <div class="module"  onclick="gm()">
+                    <img src="gradient.jpeg" alt="gradient" height="100px" width="160px">
+                    <p class="songname">Gayatri Manta</p>
+                </div>
+
+                <div class="module" onclick="gm()">
+                    <img src="gradient.jpeg" alt="gradient" height="100px" width="160px">
+                    <p class="songname">Gayatri Manta</p>
+                </div>
+
+                <div class="module" onclick="gm()">
+                    <img src="gradient.jpeg" alt="gradient" height="100px" width="160px">
+                    <p class="songname">Gayatri Manta</p>
+                </div>
+
+                <div class="module" onclick="gm()">
+                    <img src="gradient.jpeg" alt="gradient" height="100px" width="160px">
+                    <p class="songname">Gayatri Manta</p>
+                </div>
+                
+            </div>
+
+            <h1>Your top mixes </h1>
+            <div class="music">
+                <div class="module" onclick="gm()">
+                    <img src="gradient.jpeg" alt="gradient" height="100px" width="160px">
+                    <p class="songname">Gayatri Manta</p>
+                </div>
+
+                <div class="module" onclick="gm()">
+                    <img src="gradient.jpeg" alt="gradient" height="100px" width="160px">
+                    <p class="songname">Gayatri Manta</p>
+                </div>
+
+                <div class="module" onclick="gm()">
+                    <img src="gradient.jpeg" alt="gradient" height="100px" width="160px">
+                    <p class="songname">Gayatri Manta</p>
+                </div>
+
+                <div class="module" onclick="gm()">
+                    <img src="gradient.jpeg" alt="gradient" height="100px" width="160px">
+                    <p class="songname">Gayatri Manta</p>
+                </div>
+
+                <div class="module" onclick="gm()">
+                    <img src="gradient.jpeg" alt="gradient" height="100px" width="160px">
+                    <p class="songname">Gayatri Manta</p>
+                </div>
+                
+            </div>
+            
+            <h1>Recently played </h1>
+            <div class="music">
+                <div class="module" onclick="gm()">
+                    <img src="gradient.jpeg" alt="gradient" height="100px" width="160px">
+                    <p class="songname">Gayatri Manta</p>
+                </div>
+
+                <div class="module" onclick="gm()" >
+                    <img src="gradient.jpeg" alt="gradient" height="100px" width="160px">
+                    <p class="songname">Gayatri Manta</p>
+                </div>
+
+                <div class="module" onclick="gm()">
+                    <img src="gradient.jpeg" alt="gradient" height="100px" width="160px">
+                    <p class="songname">Gayatri Manta</p>
+                </div>
+
+                <div class="module" onclick="gm()">
+                    <img src="gradient.jpeg" alt="gradient" height="100px" width="160px">
+                    <p class="songname">Gayatri Manta</p>
+                </div>
+
+                <div class="module" onclick="gm()">
+                    <img src="gradient.jpeg" alt="gradient" height="100px" width="160px">
+                    <p class="songname">Gayatri Manta</p>
+                </div>
+                
+            </div>
+
+            <div class="contact">
+                <div class="contmod">
+                    <p class="paraga" style="font-weight: bold; color: white;" >
+                        Company</p>
+                    <p class="paraga">About</p>
+                    <p  class="paraga">Job</p>
+                    <p class="paraga">For the records</p>
+                </div>
+
+                <div class="contmod">
+                    <p class="paraga" style="font-weight: bold; color: white;" >
+                        Communities</p>
+                    <p class="paraga">For Artists</p>
+                    <p  class="paraga">Developers</p>
+                    <p class="paraga">Advertising</p>
+                    <p class="paraga">Investers</p>
+                    <p class="paraga">Vendoers</p>
+                </div>
+
+                <div class="contmod">
+                    <p class="paraga" style="font-weight: bold; color: white;" >
+                        Useful Links</p>
+                    <p class="paraga">Support</p>
+                    <p  class="paraga">For Mobile Apps</p>
+                </div>
+
+                <div class="contmod">
+                    <p class="paraga" style="font-weight: bold; color: white;" >
+                        Spotify Plans</p>
+                    <p class="paraga">Premium indivisual</p>
+                    <p  class="paraga">Premium Duo</p>
+                    <p class="paraga">Premium Family</p>
+                    <p class="paraga">Premium Student</p>
+                    <p class="paraga">Spotify Free</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div style="display: flex;">
+                <div class="last">Legal</div>
+                <div class="last">Safety & Privacy Center \</div>
+                <div class="last">Privacy Policy</div>
+                <div class="last">Cookies</div>
+                <div class="last">About Ads</div>
+                <div class="last">Accessibility</div>
+                <div class="lastR">© 2024 Spotify AB</div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="left">
+            <div class="bottom-item">
+                <div class="bottom-image">
+                    <img height="25px" width="25px" src="gradient.jpeg" alt="gradient">
+                </div>
+                
+                <div class="bottom-text">
+                    <p>Song</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="center">
+            <div class="bottom-itemC">    
+                <audio  id="gm">
+                    <source src="gayatri-mantra-raga-1.mp3" type="audio/mp3">
+                </audio>
+                <div class="up">
+                    <div class="topoption">&#xF544;</div>
+                    <div class="topoption">|&#60;</div>
+                    <div class="topoption">&#9658;</div>
+                    <div class="topoption">&#62;|</div>
+                    <div class="topoption">&#10226;</div>
+                </div>
+                <div class="down">
+                    <div id="progressBar"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="bottom-itemR">
+                <div class="bottom-imageR">
+                    <img height="15px" width="15px" src="play.svg" alt="play">
+                </div>
+
+                <div class="bottom-imageR">
+                    <img height="15px" width="15px" src="lyrics.svg" alt="lyrics">
+                </div>
+                
+                <div class="bottom-imageR">
+                    <img height="20px" width="20px" src="queue.svg" alt="queue">
+                </div>
+
+                <div class="bottom-imageR">
+                    <img height="15px" width="15px" src="connect to device.svg" alt="lyrics">
+                </div>
+
+                <div class="bottom-imageR">
+                    <img height="20px" width="20px" src="minimize.svg" alt="minimize">
+                </div>
+
+                <div class="bottom-imageR">
+                    <img height="15px" width="15px" src="maximize.svg" alt="maximize">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        var a = document.getElementById("gm"); 
+        function gm() { a.play(); } 
+
+        const audio = document.getElementById('gm');
+        const progressBar = document.getElementById('progressBar');
+
+        audio.addEventListener('timeupdate', updateProgressBar);
+
+        function updateProgressBar() {
+        const currentTime = audio.currentTime;
+        const duration = audio.duration;
+        const progress = (currentTime / duration) * 100;
+        progressBar.style.width = progress + '%';
+        }
+    </script>
+    
+</body>
+</html>
